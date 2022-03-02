@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 
 const UseStateCounter = () => {
+  //Set value
   const [value, setValue] = useState(0);
+  //Reset function
   const resetFunction = () => {
     setValue(0);
   };
